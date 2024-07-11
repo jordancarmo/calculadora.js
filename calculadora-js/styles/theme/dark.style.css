@@ -1,0 +1,16 @@
+:root {
+    --main-background-color: #171C22;
+    --body-background-color: #212A35;
+    --sec-operators-background-color: #2E3A48;
+    --numbers-background-color: #171C22;
+    --color-text-main: #EAEBED;
+}
+.calculator__button:hover{
+    background-color:#343c47;
+}
+.calculator__button.calculator__operator:hover{
+    background-color: #7358d3;
+}
+.calculator__button.calculator__sec-operator:hover{
+    background-color: #2d3642;
+}
