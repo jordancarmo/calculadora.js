@@ -49,6 +49,7 @@ main {
     display: flex;
     gap: .5rem;
     align-items: center;
+    justify-content: center;
 }
 
 .switch-color__toggle {
@@ -63,10 +64,6 @@ main {
     cursor: pointer;
 }
 
-.switch-color__appointment {
-    font-weight: 700;
-    color: var(--color-gray);
-}
 
 .switch-color__button {
     background: var(--main-background-color);
