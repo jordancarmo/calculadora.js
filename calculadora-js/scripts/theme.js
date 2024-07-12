@@ -22,8 +22,8 @@ const toggleTheme = () => {
     linkStyleCSS.rel = 'stylesheet'
     linkStyleCSS.href = `./styles/theme/${themes[themes.actualTheme].alias}.style.css`
     head.appendChild(linkStyleCSS)
-    const switchColorAppointment = document.querySelector('.switch-color__appointment')
-    switchColorAppointment.textContent = switchColorAppointment.textContent.replace(themes[themes.actualTheme].label, themes[themes.actualTheme].opposite)
+    const switchColorButton = document.querySelector('.switch-color__button')
+    switchColorButton.textContent = switchColorButton.textContent.replace(themes[themes.actualTheme].label, themes[themes.actualTheme].opposite)
 
     themes.actualTheme = themes.actualTheme === 'light' ? 'dark' : 'light'
     switchColorButton.style.marginLeft = themes.actualTheme === 'light' ? 'calc(100% - 1rem)' : '0'
